@@ -1,7 +1,7 @@
 const reviews = [
     {
       id: 1,
-      name: "Rusu Marian",
+      name: "Marian Rusu",
       job: "Senior Developer",
       img: "https://scontent.fsbz3-1.fna.fbcdn.net/v/t1.6435-9/160901983_4187404537984469_9180173081975703602_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=AbGpTmLzhagAX9YCSaU&_nc_ht=scontent.fsbz3-1.fna&oh=00_AT__-H_gVsGyH5Ib3GY851gbqRXRcRT7SSPSlA1903I8Sg&oe=62B81E25",
       text:
@@ -91,5 +91,4 @@ randomBtn.addEventListener('click', function(){
     if(currentItem = currentItem){
         currentItem++
     };
-    console.log(currentItem);
 });
